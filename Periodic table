@@ -1,0 +1,201 @@
+# Clone repository
+git clone https://github.com/HKUDS/Paper2Slides.git
+cd Paper2Slides
+
+# Create and activate conda environment
+conda create -n paper2slides python=3.12 -y
+conda activate paper2slides
+
+# Install dependencies
+pip install -r requirements.txt
+
+# One command to generate slides from a paper
+python -m paper2slides --input paper.pdf --output slides --style doraemon --length medium --fast --parallel 2
+
+1. Arrangement of elements in the modern periodic table
+
+Elements are arranged according to two main principles:
+
+1. Increasing atomic number
+(each element has one more proton than the previous one)
+
+
+2. Aufbau principle
+(electrons fill sublevels in order of increasing energy: 1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p… etc.)
+
+
+
+
+---
+
+⭐ 2. Sublevel Arrangement and Blocks
+
+The periodic table is divided into four blocks, depending on the last sublevel being filled:
+
+1. s-block
+
+Left side of the table
+
+Groups 1 (IA) and 2 (IIA)
+
+Last electron enters the s sublevel
+
+
+2. p-block
+
+Right side of the table
+
+Groups 13–18
+
+Last electron enters the p sublevel
+
+
+3. d-block (Transition elements)
+
+Middle of the table
+
+Groups 3–12
+
+Last electron enters the d sublevel
+
+
+4. f-block (Inner transition elements)
+
+Lanthanides and Actinides
+
+Last electron enters the f sublevel
+
+
+
+---
+
+⭐ 3. Types of elements
+
+Based on their electron configuration, elements fall into four categories:
+
+1. Noble gases
+
+Group 18
+
+Stable electron configuration (ns² np⁶)
+
+Very unreactive
+
+
+2. Representative elements
+
+s-block + p-block (except noble gases)
+
+Show clear periodic trends
+
+
+3. Main transition elements
+
+d-block
+
+Electrons added to the d sublevel
+
+
+4. Inner transition elements
+
+f-block
+
+Electrons added to the f sublevel
+
+
+
+---
+
+⭐ 4. Atomic Radius
+
+Definition:
+Half the distance between the nuclei of two identical atoms in a diatomic molecule.
+
+Measured in picometers (pm).
+
+
+---
+
+⭐ 5. Trends in Atomic Radius
+
+A) Across a period (left → right)
+
+Atomic radius decreases
+
+Reason:
+
+Nuclear charge increases (more protons)
+
+Electrons are pulled closer to the nucleus
+
+No increase in energy levels
+
+
+Largest in a period: Group 1
+Smallest: Group 17
+
+
+---
+
+B) Down a group (top → bottom)
+
+Atomic radius increases
+
+Reasons:
+
+More energy levels
+
+Increased shielding from inner electrons
+
+Less attraction between nucleus and outer electrons
+
+
+
+---
+
+⭐ 6. Ionic Radius vs Atomic Radius
+
+In Metals (forming positive ions):
+
+Cation radius < Atomic radius
+
+Because:
+
+Metal loses electrons
+
+Nuclear charge pulls remaining electrons closer
+
+Radius becomes smaller
+
+
+Example:
+
+Na⁺ radius is smaller than Na atom
+
+
+In Nonmetals (forming negative ions):
+
+Anion radius > Atomic radius
+
+Because:
+
+Gaining electrons increases repulsion between electrons
+
+Radius expands
+
+
+Example:
+
+Cl⁻ radius is larger than Cl atom
+
+
+
+---
+
+⭐ Example Table Explained
+
+For ions like Fe²⁺ and Fe³⁺:
+
+Fe³⁺ is smaller than Fe²⁺
+→ because it has more protons pulling fewer electrons, so stronger attraction = smaller radius.
+
